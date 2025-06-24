@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Practice form</h1>
+    <form>
+      <div>
+        <label for="email">email</label>
+        <input type="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">password</label>
+        <input type="password" id="password" />
+      </div>
+      <button>SUBMIT</button>
+
+      <h1>Drop Down bar</h1>
+    </form>
+    <label for="options">Choose activity</label>
+    <select id="options" name="options">
+      <option value="food">food</option>
+      <option value="car">car</option>
+      <option value="movie">movie</option>
+      <option value="sex">sex</option>
+    </select>
+
+    <h1>Check box</h1>
+    <form>
+      <label for="one">
+        <input type="checkbox" name="animals" id="one" value="cat" />
+        CAT
+      </label>
+      <label for="two">
+        <input type="checkbox" name="animals" id="two" value="dog" />
+        DOG
+      </label>
+    </form>
+    <h1>Radio buttons</h1>
+    <form>
+      <label for="compLangOpts">
+        <input type="radio" name="super" id="compLangOpts" value="html" />
+        CSS
+      </label>
+
+      <label for="things">
+        <input type="radio" name="super" id="things" value="Testing" />
+        HTML
+      </label>
+    </form>
+
+    <h1>Sliding bar</h1>
+    <label for="slide">
+      <input
+        type="range"
+        name="happiness"
+        id="slide"
+        min="0"
+        max="1000"
+        value="100"
+      />
+    </label>
+
+    <h1>Datalist</h1>
+    <label for="AreaCode">Area Code:</label>
+    <input type="text" name="AreaCode" id="AreaCode" list="opts" />
+    <datalist id="opts">
+      <option value="78240">78240</option>
+      <option value="52290">52290</option>
+      <option value="12842">12842</option>
+      <option value="52267">52267</option>
+    </datalist>
+  </body>
+</html>

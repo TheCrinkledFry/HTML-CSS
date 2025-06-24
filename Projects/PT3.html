@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Apartment Search</h1>
+
+    <form>
+      <label for="PriceFilter">
+        Price Filter
+        <input
+          type="range"
+          name="PriceFilter"
+          id="PriceFilter"
+          min="0"
+          max="2000"
+        />
+      </label>
+      <br />
+      <br />
+
+      <label for="Beds">
+        Beds
+        <input type="text" name="Beds" id="Beds" />
+      </label>
+      <br />
+      <br />
+
+      <label for="Bathrooms">
+        Bathrooms
+        <input type="text" name="Bathrooms" id="Bathrooms" />
+      </label>
+      <br />
+      <br />
+      <label for="AnimalAllowed">
+        Pets
+        <input
+          type="checkbox"
+          id="AnimalAllowed"
+          name="AnimalAllowed"
+          value="true"
+        />
+      </label>
+      <br />
+      <br />
+      <label for="Available">
+        Date Available
+        <input type="date" id="Available" name="date" />
+      </label>
+      <br />
+      <br />
+      <label for="submission">
+        <input type="submit" value="Submit" />
+      </label>
+    </form>
+  </body>
+</html>
