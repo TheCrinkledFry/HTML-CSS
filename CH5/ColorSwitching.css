@@ -1,0 +1,38 @@
+label {
+  line-height: 40px;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 30px;
+}
+
+.text {
+  color: coral;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#FirstBox {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+#Submit {
+  text-align: center;
+  /* background-color: rgb(150, 200, 200); */
+  background-color: pink;
+}
+
+p {
+  background-color: lightcoral;
+  color: rgba(0, 0, 0, 0.5); /* This will make the text tranparent*/
+  /* color: rgb(0, 0, 0); */
+}
